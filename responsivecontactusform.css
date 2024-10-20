@@ -1,0 +1,80 @@
+:root{font-family: Arial, Helvetica, sans-serif;}
+
+.container{
+    width: 100%;
+    height: 950px;
+    position: fixed;
+    background-image: linear-gradient(90deg,cyan,rgb(153, 6, 198));
+    
+}
+
+.inner{
+    position:absolute;
+    top: 20%;
+    left: 25%;
+    background-color:#fff;
+    width: 900px;
+    height: 600px;
+    
+
+}
+
+.heading{
+    margin: 30px 2px 5px 10vh;;
+    padding: 30px 2px 5px 15vh;
+    background:linear-gradient(90deg,cyan,magenta);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.form{
+
+    position:absolute;
+    top: 35%;
+    left: 28%;
+
+}
+input[type=text],
+input[type=email]
+{
+    width: 330px;
+    height: 20px;
+    padding: 15px;
+    margin: 25px 0px 20px 10px;
+    border: none;
+    border-bottom: 1px solid grey;    
+    font-size: 13pt;
+    
+}
+input:focus{
+    outline: none;
+}
+#message{
+    width: 700px;
+    height: 20px;
+    padding: 15px;
+    margin: 25px 0px 20px 10px;
+    border: none;
+    border-bottom: 1px solid grey;    
+    font-size: 13pt;
+
+}
+.btn{
+    position:absolute;
+    top: 65%;
+    left: 28%;
+
+}
+.btnsubmit{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin: 25px 0px 20px 10px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+.btnsubmit:hover{
+    opacity: 0.8;
+}
